@@ -1,0 +1,27 @@
+# General parameters
+input_dir: ./data
+work_dir: ./
+mode: cpu
+num_proc: 1
+matlab_bin: /Applications/MATLAB_R2017b.app/bin/matlab
+# K wave parameters
+enable: yes
+raw_signal: yes
+input_map: yes
+b_mode_img: yes
+# Central frequencies [MHz]
+tone_burst_freq: [3, 7, 9, 11]
+# Focus depth [cm]
+focus_distance: [2, 2.5, 3, 3.5, 4, 4.5]
+# Shape of the excitation pulse (chirp, etc)
+pulse_shape: normal
+# Power of the excitation pulse [MPa]
+source_strength: 1
+# Image depth [cm]
+img_depth: 5
+# Time Gain Compensation
+tg_compensation: no
+# Dynamic Range
+dyn_range: no
+# Gain
+gain: no
